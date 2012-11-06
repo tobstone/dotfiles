@@ -1,0 +1,15 @@
+# notifytype=growl
+# notifies=dm,me,reply,search,default
+vcheck=1
+mentions=1
+ssl=1
+readline="@prisac @bzkrefeld @tobstone @tauss @timpritlove @343max @norgetroll @Emillota @norge_troll @maltis"
+timestamp=default
+urlopen=open %U
+verify=1
+location=1
+lat=51.194821
+long=6.462539
+avatar=curl -s %U > /tmp/ttytter-%N.%E ; open -a /Applications/Preview.app /tmp/ttytter-%N.%E ; open -a /Applications/Utilities/Terminal.app
+dostream=1
+

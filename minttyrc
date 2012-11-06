@@ -1,0 +1,15 @@
+ForegroundColour=51,51,51
+BackgroundColour=255,255,236
+CursorColour=128,0,0
+CursorType=0
+CursorBlinks=0
+Font=Consolas
+FontHeight=11
+Locale=de_DE
+Charset=UTF-8
+Columns=101
+Rows=36
+Printer=KYo Büro
+Transparency=3
+OpaqueWhenFocused=1
+RightClickAction=1
