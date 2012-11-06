@@ -6,8 +6,8 @@ set nocompatible
 call pathogen#infect()
 
 set backup
-set directory=~/.vim/backup
-set backupdir=~/.vim/backup
+set directory=~/.vim_backup
+set backupdir=~/.vim_backup
 set writebackup
 set history=150		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
