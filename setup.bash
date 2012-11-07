@@ -12,6 +12,7 @@ cd
 
 relink .bashrc         $DOTFILES/bashrc
 relink .profile        $DOTFILES/profile
+relink .aliases        $DOTFILES/aliases
 
 
 relink .vim            $DOTFILES/vim
@@ -29,5 +30,5 @@ relink .ttytterrc      $DOTFILES/ttytterrc
 
 
 
-
+source .profile
 
