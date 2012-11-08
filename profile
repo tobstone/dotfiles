@@ -23,5 +23,5 @@ export BASHISH_CP BASHISH_OLDPATH TTY ENV                       ## line added by
 . "$BASHISHDIR/main/prompt/sh/init"                             ## line added by bashish
 fi  ## line added by bashish
 
-PATH="/usr/local/bin:/usr/local/sbin:/Users/tobias/bin:$PATH"
+PATH="/usr/local/bin:/usr/local/sbin:/Users/tobias/bin:$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
