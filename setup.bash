@@ -1,35 +1,20 @@
 #!/bin/bash
 
-flag="$@"
-
-function relink() {
-rm -Rf $1; ln -s -v $flag $2 $1
-}
-
 DOTFILES=$(pwd)
 
-
-cd
-
-relink .bashrc         $DOTFILES/bashrc
-relink .profile        $DOTFILES/profile
-relink .aliases        $DOTFILES/aliases
-
-
-relink .vim            $DOTFILES/vim
-relink .vimrc          $DOTFILES/vimrc
-
-relink .gitconfig      $DOTFILES/gitconfig
-relink .gitignore      $DOTFILES/gitignore
-
-relink bin             $DOTFILES/bin
-
-relink .todo.cfg       $DOTFILES/todo.cfg
-relink .todo.actions.d $DOTFILES/todo.actions.d
-
-relink .ttytterrc      $DOTFILES/ttytterrc
-
-
+for file in *
+do
+  if   [ "${file}" == "bin"  ]
+  then 
+    cd ; rm -Rf bin; ln -s -v $DOTFILES/$file $file
+    continue
+  fi
+  if [ "${file}" == "ReadMe.md" ] ||  [ "${file}" == "setup.bash" ] || [ "${file}" == "License" ]
+  then 
+    continue
+  fi
+  cd ; rm -Rf .$file; ln -s -v $DOTFILES/$file .$file
+done
 
 source .profile
 
