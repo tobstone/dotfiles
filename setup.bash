@@ -3,10 +3,11 @@
 flag="$@"
 
 function relink() {
-rm -Rf $1; ln -s -h -v $flag $2 $1
+rm -Rf $1; ln -s -v $flag $2 $1
 }
 
 DOTFILES=$(pwd)
+
 
 cd
 
