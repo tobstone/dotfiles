@@ -1,11 +1,7 @@
-[user]
-	name = Tobias Steinhoff
-	email = tobias@stonehope.de
 [gui]
-  recentrepo = /Users/tobias/src/homebrew
 [core]
   editor = vim
-	excludesfile = /Users/tobias/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [diff]
     external = git_diff_wrapper
 [pager]
@@ -23,3 +19,6 @@
   
 [push]
 	default = current
+[user]
+	name = Tobias Steinhoff
+	email = tobias@stonehope.de

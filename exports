@@ -1,0 +1,11 @@
+export PYTHONPATH=/usr/local/lib/python:$PYTHONPATH
+export EDITOR='/usr/local/bin/mvim -f'
+# export EDITOR='mvim -f -c"au VimLeave * !open -a Terminal"'
+export PAGER=/usr/local/bin/vimpager 
+
+# Larger bash history (allow 32³ entries; default is 500)
+export HISTSIZE=32768
+export HISTFILESIZE=$HISTSIZE
+export HISTCONTROL=ignoredups
+# Make some commands not show up in history
+export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"

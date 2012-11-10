@@ -1,7 +1,7 @@
 #!/bin/bash
-
 DOTFILES=$(pwd)
-
+git pull
+function undlos() {
 for file in *
 do
   if   [ "${file}" == "bin"  ]
@@ -15,6 +15,15 @@ do
   fi
   cd ; rm -Rf .$file; ln -s -v $DOTFILES/$file .$file
 done
-
-source .profile
-
+}
+if [ "$1" == "--force" -o "$1" == "-f" ]; then
+  undlos
+else
+  read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1
+	echo
+	if [[ $REPLY =~ ^[Yy]$ ]]; then
+		undlos
+	fi
+fi
+unset undlos
+source ~/.bash_profile
