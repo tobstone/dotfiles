@@ -1,6 +1,9 @@
 #!/bin/bash
 DOTFILES=$(pwd)
 git pull
+git submodule init
+git submodule update
+
 function undlos() {
 for file in *
 do
