@@ -4,6 +4,7 @@ set nocompatible
 " :au BufWinEnter * let w:m2=matchadd('ColumnMargin', '\%>80v.\+', -1)
 
 call pathogen#infect()
+call pathogen#helptags()
 
 set backup
 set directory=~/.vim_swaps
