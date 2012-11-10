@@ -1,5 +1,7 @@
 alias cl='clear'
 alias mate='sudo mate'
+alias m='mvim'
+alias mvi='mvim .'
 # alias vi='sudo vim'
 alias R8='mogrify -resize 800x800 -quality 80% *.jpg *.JPG'
 alias R10='mogrify -resize 1024x1024 -quality 80% *.jpg *.JPG'

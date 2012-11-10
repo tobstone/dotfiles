@@ -6,15 +6,35 @@ set nocompatible
 call pathogen#infect()
 
 set backup
-set directory=~/.vim_backup
+set directory=~/.vim_swaps
 set backupdir=~/.vim_backup
+if exists("&undodir")
+	set undodir=~/.vim/undo
+endif
 set writebackup
-set history=150		" keep 50 lines of command line history
-set ruler		" show the cursor position all the time
-set showcmd		" display incomplete commands
-set incsearch		" do incremental searching
+" keep 150 lines of command line history
+set history=150
+" show the cursor position all the time
+set ruler
+" display incomplete commands
+set showcmd
+" do incremental searching
+set incsearch
 set number
 set gcr=n-v-c:block-Cursor/block-Cursor-blinkwait300-blinkon200-blinkoff0,i-ci:ver30-block-Cursor-blinkwait300-blinkon200-blinkoff0
+
+" Enhance command-line completion
+set wildmenu
+" Allow cursor keys in insert mode
+set esckeys
+" Allow backspace in insert mode
+set backspace=indent,eol,start
+" Highlight current line
+"set cursorline
+" Enable mouse in all modes
+set mouse=a
+" Don’t reset cursor to start of line when moving around.
+set nostartofline
 
 " Softtabs, 2 spaces
 set tabstop=2
