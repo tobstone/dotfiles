@@ -43,7 +43,7 @@ set shiftwidth=2
 set expandtab
 
 " Display extra whitespace
-set list listchars=tab:»·,trail:·
+" set list listchars=tab:»·,trail:·
 
 if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
 syntax on
