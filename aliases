@@ -12,7 +12,7 @@ alias less=$PAGER
 alias more=$PAGER
 alias gca='git commit -a'
 alias gp='git push'
-
+alias alpine='alpine -p "{imap.gmail.com/ssl/user=t.steinhoff@gmail.com}remote_pinerc"'
 
 
 # Easier navigation: .., ..., ...., ....., ~ and -
