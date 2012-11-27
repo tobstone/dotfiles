@@ -1,4 +1,11 @@
 # My Dotfiles :-)
+## Install
+
+use 
+```git
+git clone --recursive
+```
+to install all vim-bundles as submudoles
 
 Caution:
 The setup.bash will delete your original files and symlink the new ones.
