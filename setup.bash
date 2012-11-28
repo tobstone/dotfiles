@@ -4,12 +4,19 @@ git pull
 git submodule init
 git submodule update
 
+mkdir -p ~/.newsbeuter
+
 function undlos() {
 for file in *
 do
   if   [ "${file}" == "bin"  ]
   then 
     cd ; rm -Rf bin; ln -s -v $DOTFILES/$file $file
+    continue
+  fi
+  if   [ "${file}" == "newsbeuter"  ]
+  then 
+    cd ; rm -f .newsbeuter/config; ln -s -v $DOTFILES/$file/config .$file/config
     continue
   fi
   if [ "${file}" == "ReadMe.md" ] ||  [ "${file}" == "setup.bash" ] || [ "${file}" == "License" ]

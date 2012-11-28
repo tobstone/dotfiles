@@ -1,0 +1,16 @@
+urls-source "googlereader"
+googlereader-login "t.steinhoff@gmail.com"
+googlereader-flag-share "a"
+googlereader-flag-star "b"
+auto-reload yes
+browser "open %u"
+cookie-cache "~/.newsbeuter/cookies.txt"
+error-log "~/.newsbeuter/error.log"
+googlereader-min-items 100
+reload-threads 5
+reload-time 10
+show-read-feeds no
+show-read-articles no
+notify-xterm yes
+notify-program /usr/local/bin/growlnotify
+googlereader-passwordfile ~/.newsbeuterpass
