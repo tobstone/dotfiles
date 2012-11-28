@@ -1,4 +1,6 @@
 urls-source "googlereader"
+confirm-exit yes
+download-full-page yes
 googlereader-login "t.steinhoff@gmail.com"
 googlereader-flag-share "a"
 googlereader-flag-star "b"
@@ -12,5 +14,5 @@ reload-time 10
 show-read-feeds no
 show-read-articles no
 notify-xterm yes
-notify-program /usr/local/bin/growlnotify
+notify-program "/usr/local/bin/growlnotify"
 googlereader-passwordfile ~/.newsbeuterpass
