@@ -106,3 +106,6 @@ set guifont=Menlo:h12
 
 " change default mapleader from \ to ,
 let mapleader = ","
+
+" replace ack with ag
+let g:ackprg = 'ag --nogroup --nocolor --column'

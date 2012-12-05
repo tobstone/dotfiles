@@ -1,5 +1,6 @@
 urls-source "googlereader"
 confirm-exit yes
+keep-articles-days 30
 download-full-page yes
 googlereader-login "t.steinhoff@gmail.com"
 googlereader-flag-share "a"
@@ -10,7 +11,7 @@ cookie-cache "~/.newsbeuter/cookies.txt"
 error-log "~/.newsbeuter/error.log"
 googlereader-min-items 100
 reload-threads 5
-reload-time 10
+reload-time 155555
 show-read-feeds no
 show-read-articles no
 notify-xterm yes
