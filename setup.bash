@@ -4,7 +4,7 @@ git pull
 git submodule init
 git submodule update
 
-mkdir -p ~/.newsbeuter
+mkdir -p ~/.newsbeuter ~/.vim_backup ~/.vim_swaps
 
 function undlos() {
 for file in *

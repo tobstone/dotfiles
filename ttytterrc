@@ -12,4 +12,4 @@ lat=51.194821
 long=6.462539
 avatar=curl -s %U > /tmp/ttytter-%N.%E ; open -a /Applications/Preview.app /tmp/ttytter-%N.%E ; open -a /Applications/Utilities/Terminal.app
 dostream=1
-
+ansi=1
