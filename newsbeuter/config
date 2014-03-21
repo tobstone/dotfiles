@@ -1,10 +1,6 @@
-urls-source "googlereader"
 confirm-exit yes
 keep-articles-days 30
 download-full-page yes
-googlereader-login "t.steinhoff@gmail.com"
-googlereader-flag-share "a"
-googlereader-flag-star "b"
 auto-reload yes
 browser "open %u"
 cookie-cache "~/.newsbeuter/cookies.txt"
@@ -16,4 +12,3 @@ show-read-feeds no
 show-read-articles no
 notify-xterm yes
 notify-program "/usr/local/bin/growlnotify"
-googlereader-passwordfile ~/.newsbeuterpass
