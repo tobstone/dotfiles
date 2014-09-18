@@ -1,5 +1,5 @@
-# notifytype=growl
-# notifies=dm,me,reply,search,default
+notifytype=growl
+notifies=dm,me,reply,search,default
 vcheck=1
 mentions=1
 ssl=1
