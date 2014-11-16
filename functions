@@ -1,7 +1,3 @@
-
-complete -F _todo t
-
-
 # Create a new directory and enter it
 function mkd() {
 	mkdir -p "$@" && cd "$@"

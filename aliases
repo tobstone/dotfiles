@@ -1,27 +1,27 @@
 alias cl='clear'
-alias mate='sudo mate'
+#alias mate='sudo mate'
 alias m='mvim'
 alias mvi='mvim .'
 # alias vi='sudo vim'
 alias R8='mogrify -resize 800x800 -quality 80% *.jpg *.JPG'
 alias R10='mogrify -resize 1024x1024 -quality 80% *.jpg *.JPG'
-alias cdf='eval `osascript /Applications/OpenTerminal.app/ Contents/Resources/Scripts/OpenTerminal.scpt `'
+#alias cdf='eval `osascript /Applications/OpenTerminal.app/ Contents/Resources/Scripts/OpenTerminal.scpt `'
 alias SL='pmset sleepnow'
-alias t='todo.sh'
+#alias t='todo.sh'
 alias less=$PAGER
 alias more=$PAGER
-alias gca='git commit -a'
-alias gp='git push'
+#alias gca='git commit -a'
+#alias gp='git push'
 alias alpine='alpine -p "{imap.gmail.com/ssl/user=t.steinhoff@gmail.com}remote_pinerc"'
 
 
 # Easier navigation: .., ..., ...., ....., ~ and -
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-alias .....='cd ../../../..'
-alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -='cd -'
+# alias ..='cd ..'
+# alias ...='cd ../..'
+# alias ....='cd ../../..'
+# alias .....='cd ../../../..'
+# alias ~="cd ~" # `cd` is probably faster to type though
+# alias -- -='cd -'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
