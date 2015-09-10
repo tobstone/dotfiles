@@ -10,5 +10,5 @@
 
 # rsync --progress -avhr --dry-run  /Users/tobias/Downloads/wordpress /Sites/wordpress | tee /Users/tobias/Desktop/rsync.log
 
-rsync --progress --exclude-from=/Users/tobias/.rsync/exclude  -avhr /Volumes/dwbunna/Picasa/ /Volumes/Datengrab/Picasa/ | tee /Users/tobias/Desktop/rsync.log
+rsync --progress --exclude-from=/Users/tobias/.rsync/exclude  -avhr /Volumes/x/ /Volumes/Datengrab/
 
