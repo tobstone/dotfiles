@@ -1,4 +1,4 @@
-export PYTHONPATH=/usr/local/lib/python:$PYTHONPATH
+#export PYTHONPATH=/usr/local/lib/python:$PYTHONPATH
 export EDITOR='/usr/local/bin/mvim -f'
 # export EDITOR='mvim -f -c"au VimLeave * !open -a Terminal"'
 export PAGER=/usr/local/bin/vimpager 

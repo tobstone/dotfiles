@@ -22,18 +22,12 @@
 [submodule "vim/bundle/vim-surround"]
 	path = vim/bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
-[submodule "vim/bundle/vim-vividchalk"]
-	path = vim/bundle/vim-vividchalk
-	url = git://github.com/tpope/vim-vividchalk.git
 [submodule "vim/bundle/vim-align"]
 	path = vim/bundle/vim-align
 	url = git://github.com/tsaleh/vim-align.git
 [submodule "vim/bundle/vim-supertab"]
 	path = vim/bundle/vim-supertab
 	url = git://github.com/tsaleh/vim-supertab.git
-[submodule "vim/bundle/ack"]
-	path = vim/bundle/ack
-	url = git://github.com/mileszs/ack.vim.git
 [submodule "vim/bundle/taskpaper.vim"]
 	path = vim/bundle/taskpaper.vim
 	url = https://github.com/davidoc/taskpaper.vim.git
@@ -46,3 +40,6 @@
 [submodule "vim/bundle/salt-vim"]
 	path = vim/bundle/salt-vim
 	url = https://github.com/saltstack/salt-vim.git
+[submodule "vim/bundle/Vim-Jinja2-Syntax"]
+	path = vim/bundle/Vim-Jinja2-Syntax
+	url = https://github.com/Glench/Vim-Jinja2-Syntax.git
