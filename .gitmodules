@@ -42,3 +42,6 @@
 [submodule "vim/bundle/vim-yaml"]
 	path = vim/bundle/vim-yaml
 	url = https://tobstone@github.com/stephpy/vim-yaml
+[submodule "vim/bundle/vim-indent"]
+	path = vim/bundle/vim-indent
+	url = https://tobstone@github.com/nathanaelkane/vim-indent-guides.git
