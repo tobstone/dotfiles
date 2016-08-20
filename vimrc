@@ -55,6 +55,8 @@ set laststatus=2
 " colorscheme skoehlerautumn
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
+hi IndentGuidesOdd  guibg=red   ctermbg=3
+hi IndentGuidesEven guibg=green ctermbg=4
 
 " Use Ack instead of Grep when available
 if executable("ack")
@@ -112,3 +114,4 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
