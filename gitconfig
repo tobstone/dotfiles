@@ -3,6 +3,7 @@
   editor = vim
 	excludesfile = ~/.gitignore_global
 	quotepath = false
+	autocrlf = input
 [pager]
     diff =
 [color]

@@ -109,3 +109,6 @@ let mapleader = ","
 
 " replace ack with ag
 let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
